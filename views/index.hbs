@@ -1,0 +1,15 @@
+<h1>Body Mass Index Calculator</h1>
+<h2>Enter your data</h2>
+
+<!-- when the submit button is clicked a get request is made to server-->
+<form action="/calculate" method="GET">
+
+    <label for="height-meters">Height in meters:</label>
+    <input id="height-meters" name="height" type="number" step="0.01">
+    <br>
+    <label for="weight-kilograms">Weight in kilograms: </label>
+    <input id="weight-kilograms" name="weight" type="number" step="0.01">
+    <br>
+    <button class="btn btn-primary" type="submit">Calculate</button>
+
+</form>
